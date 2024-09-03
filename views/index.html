@@ -1,0 +1,13 @@
+{{ block "index" . }}
+<html>
+<head>
+    <title>HTMX Proj</title>
+    <script src="https://unpkg.com/htmx.org/dist/htmx.js"></script>
+</head>
+<body>
+<div style="display: flex; flex-direction: column">
+    Count {{ .Count }}
+</div>
+</body>
+</html>
+{{ end }}
